@@ -1,0 +1,14 @@
+{
+  "opts": {
+    "user": "berdy",
+    "wait_secs": 1,
+    "updated": "2026-10-21"
+  },
+  "choices": [
+    "000VLS:Schrödoku",
+    "000VDX:Mystery Lines",
+    "000VDW:Mini Mystery Lines",
+    "000VCL:Battleship",
+    "000VCJ:Windmill"
+  ]
+}

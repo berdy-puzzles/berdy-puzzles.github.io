@@ -1,0 +1,41 @@
+{
+  "setter": "berdy",
+  "site": "https://berdy-puzzles.github.io/",
+  "puzzles": [
+    {
+      "slug": "schrodoku",
+      "title": "Schrödoku",
+      "play": "https://sudokupad.app/9tf6mayyrj",
+      "lmd": "000VLS",
+      "library": "schrodoku-3.json"
+    },
+    {
+      "slug": "mystery-lines",
+      "title": "Mystery Lines",
+      "play": "https://sudokupad.app/fbpgkpakko",
+      "lmd": "000VDX",
+      "library": "mystery-lines.json"
+    },
+    {
+      "slug": "mini-mystery-lines",
+      "title": "Mini Mystery Lines",
+      "play": "https://sudokupad.app/3r56ell6qx",
+      "lmd": "000VDW",
+      "library": "mini-mystery-lines.json"
+    },
+    {
+      "slug": "battleship",
+      "title": "Battleship",
+      "play": "https://sudokupad.app/jo7t8j1hen",
+      "lmd": "000VCL",
+      "library": "battleship.json"
+    },
+    {
+      "slug": "windmill",
+      "title": "Windmill",
+      "play": "https://sudokupad.app/v4kqkqm963",
+      "lmd": "000VCJ",
+      "library": "windmill.json"
+    }
+  ]
+}
