@@ -3,6 +3,14 @@
   "site": "https://berdy-puzzles.github.io/",
   "puzzles": [
     {
+      "slug": "jungle-jumble",
+      "title": "Jungle Jumble",
+      "play": "https://sudokupad.app/55em9pvc2c",
+      "lmd": "000VNI",
+      "picture": "pictures/jungle-jumble.png",
+      "pending": true
+    },
+    {
       "slug": "schrodoku",
       "title": "Schrödoku",
       "play": "https://sudokupad.app/9tf6mayyrj",
