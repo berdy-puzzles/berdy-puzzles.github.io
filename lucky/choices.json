@@ -2,9 +2,10 @@
   "opts": {
     "user": "berdy",
     "wait_secs": 1,
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   "choices": [
+    "000VNI:Jungle Jumble",
     "000VLS:Schrödoku",
     "000VDX:Mystery Lines",
     "000VDW:Mini Mystery Lines",
