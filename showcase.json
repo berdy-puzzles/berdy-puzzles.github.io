@@ -28,7 +28,8 @@
       "title": "Battleship",
       "play": "https://sudokupad.app/1vu4x7jlf9",
       "lmd": "000VCL",
-      "library": "battleship.json"
+      "library": "battleship.json",
+      "picture": "pictures/battleship.png"
     },
     {
       "slug": "windmill",
