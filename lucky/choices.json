@@ -2,9 +2,10 @@
   "opts": {
     "user": "berdy",
     "wait_secs": 1,
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "choices": [
+    "000VOK:Dot dot dot...",
     "000VNI:Jungle Jumble",
     "000VLS:Schrödoku",
     "000VDX:Mystery Lines",

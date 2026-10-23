@@ -3,6 +3,13 @@
   "site": "https://berdy-puzzles.github.io/",
   "puzzles": [
     {
+      "slug": "dot-dot-dot",
+      "title": "Dot dot dot...",
+      "play": "https://sudokupad.app/w40xflzlrh",
+      "lmd": "000VOK",
+      "picture": "pictures/dot-dot-dot.svg"
+    },
+    {
       "slug": "jungle-jumble",
       "title": "Jungle Jumble",
       "play": "https://sudokupad.app/55em9pvc2c",
