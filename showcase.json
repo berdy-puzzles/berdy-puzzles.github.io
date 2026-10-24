@@ -3,6 +3,13 @@
   "site": "https://berdy-puzzles.github.io/",
   "puzzles": [
     {
+      "slug": "pocket-change",
+      "title": "Pocket Change",
+      "play": "https://sudokupad.app/m2h9gt3mum",
+      "lmd": "000VP1",
+      "picture": "pictures/pocket-change.jpg"
+    },
+    {
       "slug": "dot-dot-dot",
       "title": "Dot dot dot...",
       "play": "https://sudokupad.app/w40xflzlrh",
