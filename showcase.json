@@ -14,7 +14,8 @@
       "title": "Dot dot dot...",
       "play": "https://sudokupad.app/w40xflzlrh",
       "lmd": "000VOK",
-      "picture": "pictures/dot-dot-dot.svg"
+      "picture": "pictures/dot-dot-dot.svg",
+      "hints": "hints/dot-dot-dot/"
     },
     {
       "slug": "jungle-jumble",
