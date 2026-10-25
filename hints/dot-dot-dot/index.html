@@ -27,11 +27,17 @@
 main { display:block; max-width:42rem; }
 .hint { margin:0; padding:1rem 0.5rem; font-size:1.2rem; line-height:1.7; overflow-wrap:anywhere; }
 footer a { color:inherit; }
+.spoiler-line { margin:0.5rem; }
+.spoiler { position:relative; display:block; width:100%; padding:0.7rem 0.9rem; border:0; border-radius:6px; background:var(--ink); color:transparent; text-align:left; font:inherit; line-height:1.6; cursor:pointer; }
+.spoiler::after { content:"Spoiler — click to reveal"; position:absolute; inset:0; display:flex; align-items:center; padding:0.7rem 0.9rem; color:white; }
+.spoiler:focus-visible { outline:3px solid #4facfe; outline-offset:3px; }
+.spoiler.revealed { background:#f1edf8; color:var(--ink); cursor:default; }
+.spoiler.revealed::after { content:none; }
 </style>
 </head>
 <body>
 <header><h1>Dot dot dot...</h1></header>
-<main><article><p class="hint">hint: NOT ALL DOTS ARE GIVEN… (dot… dot… dot…)</p></article></main>
+<main><article><p class="hint">hint: NOT ALL DOTS ARE GIVEN… (dot… dot… dot…)</p><p class="spoiler-line"><button type="button" class="spoiler" aria-label="Reveal additional hint" aria-expanded="false" onclick="this.classList.add('revealed'); this.setAttribute('aria-expanded','true'); this.removeAttribute('aria-label');">Like all rules, this sentence must be true for the completed grid…</button></p></article></main>
 <footer><a href="../../">Back to puzzles</a></footer>
 </body>
 </html>
