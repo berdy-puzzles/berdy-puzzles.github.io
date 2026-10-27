@@ -1,20 +1,25 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="de">
+<head>
+<meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
-<title>Black Box Zero: Tutorial (preview)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="Black Box Zero: Tutorial">
-<meta property="og:description" content="Intro to black box sudoku, find your first atoms! A preview of the puzzle page, with the rules and worked examples of how beams travel.">
+<meta property="og:description" content="Intro to black box sudoku, find your first atoms! Draft of the Logic Masters page, for testing.">
 <meta property="og:image" content="https://berdy-puzzles.github.io/t/bbz-tutorial/img/board.png">
 <meta property="og:url" content="https://berdy-puzzles.github.io/t/bbz-tutorial/">
 <meta name="twitter:card" content="summary_large_image">
-<style>body { margin: 0; background: #f3f5f7; font-family: Verdana, Arial, sans-serif; font-size: 14px; }
-main { max-width: 940px; margin: 24px auto; background: #fff; border-radius: 12px; padding: 18px 22px;
-box-shadow: 0 2px 10px rgba(0,0,0,0.08); } h1 { margin: 4px 0 2px; text-align: center; font-size: 1.6em; }
-.sub { text-align: center; color: #888; font-size: 0.85em; margin-bottom: 8px; }</style>
-</head><body><main>
-<h1>Black Box Zero: Tutorial</h1>
-<div class="sub">by berdy &middot; preview, not yet on Logic Masters</div>
+<title>Black Box Zero: Tutorial &mdash; Rätselportal (preview)</title>
+<link href="lmd/base.css" type="text/css" rel="stylesheet">
+<style type="text/css">html { background: #fff url("lmd/hashi.jpg") repeat; }</style>
+<link href="lmd/rp.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="centercolumn"><div class="box">
+<div class="rp_titel"><h2>Black Box Zero: Tutorial</h2>
+<span class="rp_eingestellt">(Eingestellt am 21. Oktober 2026 von <a href="#">Berdy</a>)
+&mdash; <b>local preview, not on Logic Masters</b></span></div>
+<div class="rp_html">
 <div style="max-width:900px;margin:16px auto;color:#222;">
 <p style="margin:4px auto 14px;max-width:640px;text-align:center;font-style:italic;color:#555;line-height:1.6;font-size:1.05em;">Intro to black box sudoku, find your first atoms!</p>
 <div style="text-align:center;padding-bottom:0px;border-bottom:3px solid #203C48;"></div>
@@ -25,4 +30,11 @@ box-shadow: 0 2px 10px rgba(0,0,0,0.08); } h1 { margin: 4px 0 2px; text-align: c
 <div style="margin-top:22px;padding-top:14px;border-top:1px dashed #d9d4e8;"><div style="font-weight:bold;color:#203C48;margin-bottom:6px;">How beams travel</div><div style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;flex-wrap:nowrap;"><div style="flex:0 0 94px;text-align:center;font-size:0.8em;color:#555;line-height:1.35;"><img src="img/straight.png" width="94" style="display:block;margin:0 auto 6px;border-radius:8px;">No atom: straight through.</div><div style="flex:0 0 94px;text-align:center;font-size:0.8em;color:#555;line-height:1.35;"><img src="img/hit.png" width="94" style="display:block;margin:0 auto 6px;border-radius:8px;">Atom straight ahead: absorbed.</div><div style="flex:0 0 94px;text-align:center;font-size:0.8em;color:#555;line-height:1.35;"><img src="img/hitfirst.png" width="94" style="display:block;margin:0 auto 6px;border-radius:8px;">Straight ahead beats diagonal: still absorbed.</div><div style="flex:0 0 94px;text-align:center;font-size:0.8em;color:#555;line-height:1.35;"><img src="img/deflect.png" width="94" style="display:block;margin:0 auto 6px;border-radius:8px;">Atom diagonally ahead: turns away.</div><div style="flex:0 0 94px;text-align:center;font-size:0.8em;color:#555;line-height:1.35;"><img src="img/reverse.png" width="94" style="display:block;margin:0 auto 6px;border-radius:8px;">Atoms diagonally ahead on both sides: straight back.</div><div style="flex:0 0 94px;text-align:center;font-size:0.8em;color:#555;line-height:1.35;"><img src="img/edge.png" width="94" style="display:block;margin:0 auto 6px;border-radius:8px;">Atom at the edge: deflected before it enters.</div></div><p style="margin:10px 0 0;line-height:1.5;font-size:0.92em;color:#444;">The beam turns in the cell before the atom's diagonal. Every cell it passes through, in order, counts as a cell along the beam; a cell it turns in counts once.</p></div>
 <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:22px;padding-top:12px;border-top:1px solid #e3dff0;"><a href="https://berdy-puzzles.github.io/" style="color:#203C48;text-decoration:none;font-weight:bold;">More puzzles by berdy &rarr;</a><a href="https://berdy-puzzles.github.io/lucky/" style="text-decoration:none;"><span style="position:relative;display:flex;align-items:center;gap:10px;width:171px;height:39px;box-sizing:border-box;padding:0 10px 0 8px;border-radius:20px;background:linear-gradient(90deg, #ff5f6d, #ffb347 20%, #f9f871 40%, #5ee7a0 60%, #4facfe 80%, #a66cff);box-shadow:0 1.5px 2px rgba(0,0,0,0.3);overflow:hidden;"><span style="position:absolute;left:4px;right:4px;top:3px;height:14px;border-radius:7px;background:rgba(255,255,255,0.25);"></span><span style="position:relative;"><span style="display:inline-grid;grid-template-columns:repeat(3,9px);grid-auto-rows:9px;border:1.75px solid #2b1d4f;border-radius:2px;background:#fff;box-shadow:0 0 0 1px #fff, 0 1.5px 2px rgba(0,0,0,0.3);"><span style="display:block;background:#ff5f6d;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#ffb347;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#f9f871;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#5ee7a0;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#ffffff;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;">?</span><span style="display:block;background:#a66cff;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#ff7eb3;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#7afcff;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span><span style="display:block;background:#ffd36e;box-shadow:inset 0 0 0 0.5px #2b1d4f;text-align:center;font:900 9px/9px Arial, sans-serif;color:#2b1d4f;"></span></span></span><span style="position:relative;flex:1;text-align:center;color:#fff;font:800 13.5px/1 Arial Rounded MT Bold, Arial, sans-serif;text-shadow:-1.5px -1.5px 0 #2b1d4f, -1.5px 0px 0 #2b1d4f, -1.5px 1.5px 0 #2b1d4f, 0px -1.5px 0 #2b1d4f, 0px 1.5px 0 #2b1d4f, 1.5px -1.5px 0 #2b1d4f, 1.5px 0px 0 #2b1d4f, 1.5px 1.5px 0 #2b1d4f;white-space:nowrap;">Feeling lucky?</span></span></a></div>
 </div>
-</main></body></html>
+</div>
+<p style="clear:both"><span class="rp_loesungscode">Lösungscode:</span>
+<span class="rp_loesungscode_descr">Row 6</span>
+<form class="rp_speed_solution_code"><input type="text" size="50">
+<input type="submit" value="Lösungscode absenden" disabled></form>
+</div></div>
+</body>
+</html>
