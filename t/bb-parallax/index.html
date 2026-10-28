@@ -30,7 +30,7 @@ body { margin:0; color:#222; font-family:Arial,Helvetica,sans-serif; }
   align-items:start; gap:26px; }
 .board-column { position:sticky; top:18px; }
 .board { display:block; width:100%; height:auto; background:#10151c; }
-.play { text-align:center; margin:15px 0; }
+.play { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; text-align:center; margin:15px 0; }
 .play a { display:inline-block; padding:10px 24px; border-radius:999px; background:#203c48;
   color:#fff; font-size:14px; font-weight:bold; text-decoration:none; }
 .caption { width:auto; padding:11px 13px; border-radius:9px; background:#eef4f6; font-size:13px;
@@ -92,7 +92,8 @@ a.tutorial-link { display:inline-block; color:#174b64; font-weight:bold; margin-
 <a href="https://sudokupad.app/xxie6513eg?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true" aria-label="Play Black Box One: Into the Void on SudokuPad">
 <img class="board" src="/t/bb-parallax/img/board.svg" width="736" height="736"
 alt="Empty 9x9 Sudoku with bright sci-fi shooters and beam-type symbols."></a>
-<div class="play"><a href="https://sudokupad.app/xxie6513eg?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true">Play on SudokuPad →</a></div>
+<div class="play"><a href="https://sudokupad.app/xxie6513eg?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true">Play on SudokuPad →</a>
+<a href="https://berdy-puzzles.github.io/t/bbz-tutorial/full/?v=2">Play tutorial →</a></div>
 <p class="caption">5 matching pairs and 5 lone shooters.
 <strong>Colour and symbol identify the beam type;</strong>
 the shooter's shape identifies its partner.</p>
