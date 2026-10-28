@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Black Box One: Parallax">
+<meta property="og:description"
+ content="A blank grid. Six hidden atoms. Five kinds of beam. A preview by Berdy.">
+<meta property="og:image" content="https://berdy-puzzles.github.io/t/bb-parallax/img/board.png">
+<meta property="og:url" content="https://berdy-puzzles.github.io/t/bb-parallax/full/">
+<meta name="twitter:card" content="summary_large_image">
+<title>Black Box One: Parallax — Rätselportal (preview)</title>
+<link href="/t/bbz-tutorial/lmd/base.css" rel="stylesheet">
+<link href="/t/bbz-tutorial/lmd/rp.css" rel="stylesheet">
+<style>
+html { background:#fff url('/t/bbz-tutorial/lmd/hashi.jpg') repeat; }
+body { margin:0; color:#222; font-family:Arial,Helvetica,sans-serif; }
+.centercolumn { width:min(1020px,calc(100% - 32px)); margin:48px auto; }
+.box { box-sizing:border-box; background:#fff; border:1px solid #333; border-radius:5px;
+  box-shadow:2px 3px 7px #0007; padding:10px 14px 18px; }
+.rp_titel h2 { text-align:center; font-size:23px; margin:3px 0 20px; }
+.rp_eingestellt { display:block; font-size:11px; color:#888; }
+.rp_eingestellt a { color:#203c48; }
+.intro { text-align:center; font-style:italic; color:#555; font-size:15px; line-height:1.6;
+  margin:16px 0; }
+.content { border-top:3px solid #203c48; padding-top:20px; }
+.columns { display:grid; grid-template-columns:minmax(0,1.36fr) minmax(290px,1fr);
+  align-items:start; gap:26px; }
+.board-column { position:sticky; top:18px; }
+.board { display:block; width:100%; height:auto; background:#10151c; }
+.play { text-align:center; margin:15px 0; }
+.play a { display:inline-block; padding:10px 24px; border-radius:999px; background:#203c48;
+  color:#fff; font-size:14px; font-weight:bold; text-decoration:none; }
+.caption { padding:11px 13px; border-radius:9px; background:#eef4f6; font-size:13px;
+  line-height:1.5; margin:0 0 15px; }
+.key { display:flex; flex-wrap:wrap; justify-content:center; gap:10px 16px; margin:10px 0 20px; }
+.key-item { display:flex; align-items:center; gap:6px; font-size:12px; color:#203c48; }
+.key-item svg { display:block; width:18px; height:23px; }
+.section-label { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#888; }
+.rule { display:flex; gap:13px; align-items:flex-start; padding:12px 0;
+ border-bottom:1px solid #e3e7e9; }
+.rule-icon { flex:0 0 28px; padding-top:2px; text-align:center; }
+.rule-icon svg { display:block; width:24px; height:27px; margin:auto; }
+.rule h3 { font-size:14px; color:#203c48; margin:0; line-height:1.4; }
+.rule-label { display:block; font-size:11px; color:#666; font-weight:normal; margin-top:2px; }
+.rule p { margin:5px 0 0; font-size:13px; line-height:1.55; }
+.beam-icon { font-size:26px; font-weight:bold; color:#203c48; line-height:1; }
+a.tutorial-link { display:inline-block; color:#174b64; font-weight:bold; margin-top:7px; }
+.ray-guide { margin-top:20px; padding-top:16px; border-top:1px solid #e3e7e9; }
+.ray-guide h3 { margin:0 0 14px; font-size:14px; color:#203c48; }
+.examples { display:flex; gap:12px; justify-content:center; }
+.examples a { width:110px; text-align:center; text-decoration:none; color:#555; font-size:12px; }
+.examples img { display:block; width:100%; height:auto; margin-bottom:6px; border-radius:7px; }
+.ray-guide>p { font-size:12px; line-height:1.5; color:#555; }
+.footer { display:flex; align-items:center; justify-content:space-between; gap:12px;
+  border-top:1px solid #e3e7e9; padding-top:15px; margin-top:24px; font-size:13px; }
+.footer>a { color:#203c48; font-weight:bold; text-decoration:none; }
+.footer img { width:171px; height:auto; }
+.solution { border-top:1px solid #ddd; margin-top:20px; padding-top:14px; font-size:12px; }
+.solution label { display:block; margin-bottom:7px; }
+.solution input { max-width:60%; padding:5px; }
+.solution button { padding:5px 9px; }
+@media(max-width:720px) {
+ .centercolumn { width:calc(100% - 20px); margin:18px auto; }
+ .box { padding:12px; }
+ .columns { grid-template-columns:1fr; gap:22px; }
+ .board-column { position:static; }
+ .rules { border-top:1px solid #d8e0e4; padding-top:18px; }
+ .rp_titel h2 { font-size:21px; }
+ .footer { flex-wrap:wrap; }
+}
+</style>
+</head>
+<body>
+<main class="centercolumn"><div class="box">
+<header class="rp_titel"><h2>Black Box One: Parallax</h2>
+<span class="rp_eingestellt">By <a href="/">Berdy</a> —
+<strong>draft preview, not yet on Logic Masters</strong></span></header>
+<div class="rp_html">
+<p class="intro">A blank grid. Six hidden atoms. Five kinds of beam.</p>
+<div class="content"><div class="columns">
+<div class="board-column">
+<a href="https://sudokupad.app/vij2x1903c?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true" aria-label="Play Parallax on SudokuPad">
+<img class="board" src="/t/bb-parallax/img/board.svg" width="736" height="736"
+alt="Empty 9x9 Sudoku with bright sci-fi shooters and beam-type symbols."></a>
+<div class="play"><a href="https://sudokupad.app/vij2x1903c?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true">Play on SudokuPad →</a></div>
+<p class="caption">Six matching pairs and seven lone shooters.
+<strong>Colour and symbol identify the beam type;</strong>
+the shooter's silhouette identifies its partner.</p>
+<div class="key" aria-label="Beam type key"><span class="key-item"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#A3E635" stroke="#203C48" stroke-width="1.5"/><path d="M -6 -7 L -3 7 L 0 -2 L 3 7 L 6 -7" fill="none" stroke="#0B1720" stroke-width="2.3"/></svg></span>German whispers</span><span class="key-item"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#F05AB6" stroke="#203C48" stroke-width="1.5"/><path d="M -6 0 L -3 0 L -3 7 L -6 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -1 -4 L 2 -4 L 2 7 L -1 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M 4 -8 L 7 -8 L 7 7 L 4 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/></svg></span>Renban</span><span class="key-item"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#29B6FF" stroke="#203C48" stroke-width="1.5"/><path d="M -6 -5 L 6 -5 L 6 -2 L -6 -2 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 2 L 6 2 L 6 5 L -6 5 Z" fill="#0B1720" stroke="none" stroke-width="0"/></svg></span>Region sum</span><span class="key-item"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#F5F5F0" stroke="#203C48" stroke-width="1.5"/><path d="M -1 -6 L -6 0 L -1 6" fill="none" stroke="#0B1720" stroke-width="2.3"/><path d="M 1 -6 L 6 0 L 1 6" fill="none" stroke="#0B1720" stroke-width="2.3"/></svg></span>Palindrome</span><span class="key-item"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#FF982E" stroke="#203C48" stroke-width="1.5"/><path d="M -1 -8 L 1 -8 L 1 8 L -1 8 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 -7 L -1 -7 L -1 -5 L -6 -5 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M 1 -4 L 6 -4 L 6 -2 L 1 -2 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 -1 L -1 -1 L -1 1 L -6 1 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M 1 2 L 6 2 L 6 4 L 1 4 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 5 L -1 5 L -1 7 L -6 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/></svg></span>Zipper</span></div>
+<div class="ray-guide"><h3>How beams travel</h3><div class="examples"><a href="https://berdy-puzzles.github.io/t/bbz-tutorial/full/?v=2"><img src="/t/bbz-tutorial/img/straight.png" alt="Straight" width="110" height="110"><span>Straight</span></a><a href="https://berdy-puzzles.github.io/t/bbz-tutorial/full/?v=2"><img src="/t/bbz-tutorial/img/hit.png" alt="Absorbed" width="110" height="110"><span>Absorbed</span></a><a href="https://berdy-puzzles.github.io/t/bbz-tutorial/full/?v=2"><img src="/t/bbz-tutorial/img/deflect.png" alt="Deflected" width="110" height="110"><span>Deflected</span></a></div>
+<p>New to Black Box? <a class="tutorial-link" href="https://berdy-puzzles.github.io/t/bbz-tutorial/full/?v=2"
+ target="_blank" rel="noopener">Open the illustrated tutorial ↗</a></p></div>
+</div>
+<div class="rules"><div class="section-label">Rules</div><section class="rule"><span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3H21V21H3ZM9 3V21M15 3V21M3 9H21M3 15H21" fill="none" stroke="#203C48" stroke-width="1.6"/></svg></span><div><h3>Sudoku </h3><p>Normal 9x9 Sudoku rules apply: each row, column and 3x3 box contains the digits 1-9 once each.</p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="3" fill="#121C27"/><circle cx="12" cy="12" r="8" fill="none" stroke="#FFB847" opacity=".4"/><circle cx="12" cy="12" r="6" fill="#FFB847"/></svg></span><div><h3>Atoms </h3><p>Exactly <strong>6 cells</strong> hide an atom. Each atom's digit is smaller than every orthogonally adjacent digit.</p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><span class="beam-icon">↔</span></span><div><h3>Beams </h3><p>Each pair of matching shooter silhouettes is joined by one beam. A lone shooter is absorbed; unmarked ports give no information. Apply the digit rule to the cells the beam visits, excluding its absorbing atom. A turn counts as one visit; a later return counts again.<br><a class="tutorial-link" href="https://berdy-puzzles.github.io/t/bbz-tutorial/full/?v=2" target="_blank" rel="noopener">Illustrated Black Box ray rules ↗</a></p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#A3E635" stroke="#203C48" stroke-width="1.5"/><path d="M -6 -7 L -3 7 L 0 -2 L 3 7 L 6 -7" fill="none" stroke="#0B1720" stroke-width="2.3"/></svg></span><div><h3>German whispers <span class="rule-label">Lime green · zigzag</span></h3><p>Neighboring digits along a beam differ by at least 5.</p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#F05AB6" stroke="#203C48" stroke-width="1.5"/><path d="M -6 0 L -3 0 L -3 7 L -6 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -1 -4 L 2 -4 L 2 7 L -1 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M 4 -8 L 7 -8 L 7 7 L 4 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/></svg></span><div><h3>Renban <span class="rule-label">Magenta · rising bars</span></h3><p>Digits along a beam are distinct and consecutive, in any order.</p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#29B6FF" stroke="#203C48" stroke-width="1.5"/><path d="M -6 -5 L 6 -5 L 6 -2 L -6 -2 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 2 L 6 2 L 6 5 L -6 5 Z" fill="#0B1720" stroke="none" stroke-width="0"/></svg></span><div><h3>Region sum <span class="rule-label">Blue · equals sign</span></h3><p>Box boundaries split a beam into segments with equal sums. Separate visits to a box count as separate segments.</p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#F5F5F0" stroke="#203C48" stroke-width="1.5"/><path d="M -1 -6 L -6 0 L -1 6" fill="none" stroke="#0B1720" stroke-width="2.3"/><path d="M 1 -6 L 6 0 L 1 6" fill="none" stroke="#0B1720" stroke-width="2.3"/></svg></span><div><h3>Palindrome <span class="rule-label">White · mirrored chevrons</span></h3><p>Digits along a beam read the same from either end.</p></div></section><section class="rule"><span class="rule-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -15 24 30"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="#FF982E" stroke="#203C48" stroke-width="1.5"/><path d="M -1 -8 L 1 -8 L 1 8 L -1 8 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 -7 L -1 -7 L -1 -5 L -6 -5 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M 1 -4 L 6 -4 L 6 -2 L 1 -2 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 -1 L -1 -1 L -1 1 L -6 1 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M 1 2 L 6 2 L 6 4 L 1 4 Z" fill="#0B1720" stroke="none" stroke-width="0"/><path d="M -6 5 L -1 5 L -1 7 L -6 7 Z" fill="#0B1720" stroke="none" stroke-width="0"/></svg></span><div><h3>Zipper <span class="rule-label">Orange · zipper teeth</span></h3><p>A beam visits an odd number of cells. Digits equally far from the middle sum to the middle digit.</p></div></section></div>
+</div>
+<footer class="footer"><a href="/">More puzzles by Berdy →</a>
+<a href="/lucky/"><img src="/assets/button.svg" width="171" alt="Feeling lucky?"></a></footer>
+</div></div>
+<form class="solution" onsubmit="return false">
+<label for="solution-code"><strong>Solution code:</strong> Row 9, left to right</label>
+<input id="solution-code" type="text" size="45" aria-label="Solution code" disabled>
+<button type="submit" disabled>Submit solution code</button></form>
+</div></main>
+</body></html>
