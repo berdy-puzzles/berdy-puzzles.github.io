@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Black Box One: Parallax — Round 2">
+<meta property="og:title" content="Black Box One: Into the Void">
 <meta property="og:description"
- content="A blank grid. 7 hidden atoms. Five kinds of beam. A puzzle by Berdy.">
+ content="Black Box is a pencil puzzle inspired by the work of Godfrey Hounsfield, who was awarded a Nobel Prize for his invention of the CAT scanner.">
 <meta property="og:image" content="https://berdy-puzzles.github.io/t/bb-parallax/img/board.png">
 <meta property="og:url" content="https://berdy-puzzles.github.io/t/bb-parallax/full/">
 <meta name="twitter:card" content="summary_large_image">
-<title>Black Box One: Parallax — Round 2 — Berdy</title>
+<title>Black Box One: Into the Void — Berdy</title>
 <link href="/t/bbz-tutorial/lmd/base.css" rel="stylesheet">
 <link href="/t/bbz-tutorial/lmd/rp.css" rel="stylesheet">
 <style>
@@ -33,6 +33,7 @@ body { margin:0; color:#222; font-family:Arial,Helvetica,sans-serif; }
 .play { text-align:center; margin:15px 0; }
 .play a { display:inline-block; padding:10px 24px; border-radius:999px; background:#203c48;
   color:#fff; font-size:14px; font-weight:bold; text-decoration:none; }
+.solve-counter { text-align:center; color:#555; font-size:12px; }
 .caption { width:auto; padding:11px 13px; border-radius:9px; background:#eef4f6; font-size:13px;
   line-height:1.5; margin:0 0 15px; }
 .key { display:flex; flex-wrap:wrap; justify-content:center; gap:10px 16px; margin:10px 0 20px; }
@@ -75,18 +76,19 @@ a.tutorial-link { display:inline-block; color:#174b64; font-weight:bold; margin-
 </head>
 <body>
 <main class="centercolumn"><div class="box">
-<header class="rp_titel"><h2>Black Box One: Parallax — Round 2</h2>
+<header class="rp_titel"><h2>Black Box One: Into the Void</h2>
 <span class="rp_eingestellt">By <a href="/">Berdy</a> —
 <strong>Playtest version</strong>
 </span></header>
 <div class="rp_html">
-<p class="intro">A blank grid. 7 hidden atoms. Five kinds of beam.</p>
+<p class="intro"><em>Black Box</em> is a pencil puzzle inspired by the work of Godfrey Hounsfield, who was awarded a Nobel Prize for his invention of the CAT scanner.</p>
 <div class="content"><div class="columns">
 <div class="board-column">
-<a href="https://sudokupad.app/vglcdj948n?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true" aria-label="Play Parallax on SudokuPad">
+<a href="https://sudokupad.app/xxie6513eg?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true" aria-label="Play Black Box One: Into the Void on SudokuPad">
 <img class="board" src="/t/bb-parallax/img/board.svg" width="736" height="736"
 alt="Empty 9x9 Sudoku with bright sci-fi shooters and beam-type symbols."></a>
-<div class="play"><a href="https://sudokupad.app/vglcdj948n?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true">Play on SudokuPad →</a></div>
+<div class="play"><a href="https://sudokupad.app/xxie6513eg?setting-darkmode=true&amp;setting-outlinesondigits=true&amp;setting-toolpen=true">Play on SudokuPad →</a></div>
+<p id="solve-counter" class="solve-counter" hidden>Solves: <strong id="solve-count"></strong> <span>(including the previous title)</span></p>
 <p class="caption">5 matching pairs and 5 lone shooters.
 <strong>Colour and symbol identify the beam type;</strong>
 the shooter's silhouette identifies its partner.</p>
@@ -102,4 +104,20 @@ the shooter's silhouette identifies its partner.</p>
 </div></div>
 
 </div></main>
+<script>
+(async () => {
+  const ids = ["berdy-blackboxone:parallaxround2", "berdy-blackboxone:intothevoid"];
+  try {
+    const counts = await Promise.all(ids.map(async id => {
+      const response = await fetch('https://api.sudokupad.com/counter/' + encodeURIComponent(id));
+      if (!response.ok) throw new Error('Counter unavailable');
+      const data = await response.json();
+      if (!Number.isInteger(data.count) || data.count < 0) throw new Error('Invalid counter');
+      return data.count;
+    }));
+    document.getElementById('solve-count').textContent = counts.reduce((a, b) => a + b, 0);
+    document.getElementById('solve-counter').hidden = false;
+  } catch (_) { /* Leave unavailable statistics hidden. */ }
+})();
+</script>
 </body></html>
