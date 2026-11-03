@@ -6,21 +6,22 @@
       "slug": "hemiola",
       "title": "Hemiola",
       "play": "https://sudokupad.app/6o6a2alfe3",
-      "lmd": "000VU3"
+      "lmd": "000VU3",
+      "picture": "pictures/hemiola.jpg"
     },
     {
       "slug": "paint-by-no-numbers",
       "title": "Paint by No Numbers",
       "play": "https://sudokupad.app/vbhbxcxic8",
       "lmd": "000VSL",
-      "picture": "pictures/paint-by-no-numbers.svg"
+      "picture": "pictures/paint-by-no-numbers.jpg"
     },
     {
       "slug": "zeroed-out",
       "title": "Zeroed Out",
       "play": "https://sudokupad.app/bz3iok1lqv",
       "lmd": "000VQO",
-      "picture": "pictures/zeroed-out.svg"
+      "picture": "pictures/zeroed-out.jpg"
     },
     {
       "slug": "pocket-change",
