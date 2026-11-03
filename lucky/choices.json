@@ -2,9 +2,13 @@
   "opts": {
     "user": "berdy",
     "wait_secs": 1,
-    "updated": "2026-10-24"
+    "updated": "2026-11-02"
   },
   "choices": [
+    "000VU3:Hemiola",
+    "000VSL:Paint by No Numbers",
+    "000VQO:Zeroed Out",
+    "000VP3:Pocket Change",
     "000VOK:Dot dot dot...",
     "000VNI:Jungle Jumble",
     "000VLS:Schrödoku",
