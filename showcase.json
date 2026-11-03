@@ -3,6 +3,27 @@
   "site": "https://berdy-puzzles.github.io/",
   "puzzles": [
     {
+      "slug": "hemiola",
+      "title": "Hemiola",
+      "play": "https://sudokupad.app/6o6a2alfe3",
+      "lmd": "000VU3",
+      "picture": "pictures/hemiola.svg"
+    },
+    {
+      "slug": "paint-by-no-numbers",
+      "title": "Paint by No Numbers",
+      "play": "https://sudokupad.app/vbhbxcxic8",
+      "lmd": "000VSL",
+      "picture": "pictures/paint-by-no-numbers.svg"
+    },
+    {
+      "slug": "zeroed-out",
+      "title": "Zeroed Out",
+      "play": "https://sudokupad.app/bz3iok1lqv",
+      "lmd": "000VQO",
+      "picture": "pictures/zeroed-out.svg"
+    },
+    {
       "slug": "pocket-change",
       "title": "Pocket Change",
       "play": "https://sudokupad.app/m2h9gt3mum",
