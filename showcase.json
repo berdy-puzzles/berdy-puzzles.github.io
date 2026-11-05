@@ -3,6 +3,13 @@
   "site": "https://berdy-puzzles.github.io/",
   "puzzles": [
     {
+      "slug": "rolling-the-dice",
+      "title": "Rolling the Dice",
+      "play": "https://sudokupad.app/qv2fuaqwtm",
+      "lmd": "000VVN",
+      "picture": "pictures/rolling-the-dice.jpg"
+    },
+    {
       "slug": "organized-chaos",
       "title": "Organized Chaos",
       "play": "https://sudokupad.app/etopnus9uq",
