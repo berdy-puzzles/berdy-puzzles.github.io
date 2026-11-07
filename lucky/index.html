@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>?</title>
+<script>window.gcEvent = (path, title) => {
+  const send = () =>
+    window.goatcounter.count({path, title: title || path, event: true});
+  if (window.goatcounter && window.goatcounter.count) send();
+  else document.querySelector("script[data-goatcounter]").addEventListener("load", send);
+};</script>
+<script data-goatcounter="https://berdy.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>
   :root { --ink: #2b1d4f; }
   body { margin: 0; min-height: 100vh; display: grid; place-items: center; text-align: center;
@@ -56,6 +63,11 @@
   const came = params.get("from") || (document.referrer.match(/id=([0-9A-Z]{6})/) || [])[1];
   const pool = all.length > 1 ? all.filter((c) => c.id !== came) : all;
   const pick = pool[Math.floor(Math.random() * pool.length)];
+  if (!debug && window.gcEvent) {
+    const from = all.find((c) => c.id === came);
+    window.gcEvent(`lucky/${came || "direct"}-to-${pick.id}`,
+                   `Lucky: ${from ? from.title : came || "direct"} → ${pick.title}`);
+  }
   const wait = 1000 * Number(params.get("wait") ?? data.opts.wait_secs ?? 1);
   const line = document.getElementById("line");
   line.textContent = "Something is on its way…";
