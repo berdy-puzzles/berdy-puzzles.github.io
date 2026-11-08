@@ -4,6 +4,13 @@
   "goatcounter": "berdy",
   "puzzles": [
     {
+      "slug": "choco-banana-lies",
+      "title": "Choco Banana Lies",
+      "play": "https://sudokupad.app/yn672rwg6x",
+      "lmd": "000VWQ",
+      "picture": "pictures/choco-banana-lies.jpg"
+    },
+    {
       "slug": "keep-your-distance",
       "title": "Keep Your Distance",
       "play": "https://sudokupad.app/45efind91w",
