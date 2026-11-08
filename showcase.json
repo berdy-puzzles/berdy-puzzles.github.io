@@ -79,7 +79,14 @@
       "title": "Schrödoku",
       "play": "https://sudokupad.app/9tf6mayyrj",
       "lmd": "000VLS",
-      "library": "schrodoku-3.json"
+      "library": "schrodoku-3.json",
+      "solves": [
+        {
+          "label": "CtC solve",
+          "url": "https://www.youtube.com/watch?v=j-CTgU-4HFg",
+          "kind": "youtube"
+        }
+      ]
     },
     {
       "slug": "mystery-lines",
