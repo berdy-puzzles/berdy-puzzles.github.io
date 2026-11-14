@@ -4,6 +4,13 @@
   "goatcounter": "berdy",
   "puzzles": [
     {
+      "slug": "minigandr",
+      "title": "Mïnigandr",
+      "play": "https://sudokupad.app/4l6w7tjiym",
+      "lmd": "000W1I",
+      "picture": "pictures/minigandr.jpg"
+    },
+    {
       "slug": "choco-banana-lies",
       "title": "Choco Banana Lies",
       "play": "https://sudokupad.app/yn672rwg6x",
