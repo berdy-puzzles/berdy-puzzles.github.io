@@ -4,6 +4,13 @@
   "goatcounter": "berdy",
   "puzzles": [
     {
+      "slug": "n-line-sudoku",
+      "title": "N-Line Sudoku",
+      "play": "https://sudokupad.app/mnltw1i5nz",
+      "lmd": "000W27",
+      "picture": "pictures/n-line-sudoku.jpg"
+    },
+    {
       "slug": "minigandr",
       "title": "Mïnigandr",
       "play": "https://sudokupad.app/4l6w7tjiym",
