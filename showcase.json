@@ -4,6 +4,13 @@
   "goatcounter": "berdy",
   "puzzles": [
     {
+      "slug": "mastermind-sudoku",
+      "title": "Mastermind Sudoku",
+      "play": "https://sudokupad.app/x4cb4h43o1",
+      "lmd": "000W5N",
+      "picture": "pictures/mastermind-sudoku.jpg"
+    },
+    {
       "slug": "n-line-sudoku",
       "title": "N-Line Sudoku",
       "play": "https://sudokupad.app/mnltw1i5nz",
