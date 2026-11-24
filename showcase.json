@@ -22,7 +22,14 @@
       "title": "Mïnigandr",
       "play": "https://sudokupad.app/4l6w7tjiym",
       "lmd": "000W1I",
-      "picture": "pictures/minigandr.jpg"
+      "picture": "pictures/minigandr.jpg",
+      "solves": [
+        {
+          "label": "CtC solve",
+          "url": "https://www.youtube.com/watch?v=YKvoxEX8f0I",
+          "kind": "youtube"
+        }
+      ]
     },
     {
       "slug": "choco-banana-lies",
@@ -93,7 +100,14 @@
       "title": "Jungle Jumble",
       "play": "https://sudokupad.app/55em9pvc2c",
       "lmd": "000VNI",
-      "picture": "pictures/jungle-jumble.png"
+      "picture": "pictures/jungle-jumble.png",
+      "solves": [
+        {
+          "label": "CtC solve",
+          "url": "https://www.youtube.com/watch?v=Irh0eOG5C0A",
+          "kind": "youtube"
+        }
+      ]
     },
     {
       "slug": "schrodoku",
