@@ -2,9 +2,10 @@
   "opts": {
     "user": "berdy",
     "wait_secs": 1,
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "choices": [
+    "000W7Z:24 Sudoku",
     "000W5N:Mastermind Sudoku",
     "000W27:N-Line Sudoku",
     "000W1I:Mïnigandr",
